@@ -60,6 +60,8 @@ MIDDLEWARE_CLASSES = [
 ]
 ROOT_URLCONF = 'misitio.urls'
 
+LOGIN_REDIRECT_URL = '/'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
